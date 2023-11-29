@@ -1,0 +1,103 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #000; /* Completely black background */
+    color: #800080; /* Initial text color (Hollow purple) */
+    animation: colorChangeText 0.3s infinite alternate; /* Even faster animated color for the entire text */
+    text-align: center; /* Center align text for the entire body */
+}
+
+@keyframes colorChangeText {
+    from {
+        color: #800080; /* Hollow purple */
+    }
+    to {
+        color: #00FFFF; /* Cyan */
+    }
+}
+
+.advanced-section {
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px;
+    background: #333; /* Dark background for the advanced section */
+    border-radius: 10px;
+}
+
+.section-title {
+    color: #00FFFF; /* Cyan */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.interactive-feature {
+    perspective: 1000px;
+}
+.flip-card {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.flip-card:hover {
+    transform: rotateY(180deg);
+}
+
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.flip-card:hover .flip-card-
+
+
+
+.card-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.card {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #555;
+}
+
+.card h3,
+.card p {
+    padding: 10px;
+}
+
+.footer p {
+    animation: colorChangeFooter 3s infinite alternate; /* Animated color for the copyright text */
+}
+
+@keyframes colorChangeFooter {
+    from {
+        color: #800080; /* Hollow purple */
+    }
+    to {
+        color: #00FFFF; /* Cyan */
+    }
+}
