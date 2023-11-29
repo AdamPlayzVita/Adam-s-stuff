@@ -1,39 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>welcome to page 2!</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Welcome to Page 2!</title>
 </head>
 <body>
-    <h1>this is page 2</h1>
-    <video controls autoplay loop src="/videos/lil midget dancing.mp4">
-    </video>
- <br>
-<h1>Unordered list</h1>
-<ul>
-<h1><li>Controller</li></h1>
-<h1><li>Game console</li></h1>
-<h1><li>Internet connection</li></h1>
-<h1><li>Video game</li></h1>
-</ul>
-<hr>
-<h1>Ordered list</h1>
-<ol type="1">
-<h1><li>Eat breakfast</li></h1>
-<h1><li>Shower</li></h1>
-<h1><li>Go gym</li></h1>
-<h1><li>Sleep</li></h1>
-<hr>
-<h1>Description list</h1>
-<ol>
-<h1><dt>HTML</dt></h1>
-<h1><dd>This adds structure to a webpage</dd></h1>
-<h1><dt>CSS</dt></h1>
-<h1><dd>This adds style to a webpage</dd></h1>
-<h1><dt>JavaScript</dt></h1>
-<h1><dd>This adds functionnality to a webpage</dd></h1>
-</ol>
+    <header>
+        <h1 class="animated-text">Page 2 - Welcome!</h1>
+        <h2>Explore and Enjoy <span class="emoji">:)</span></h2>
+    </header>
+
+    <nav>
+        <a href="https://www.google.com" class="button-link">Click me!</a>
+        <hr>
+        <iframe src="https://www.bing.com" width="100%" height="150"></iframe>
+        <br>
+        <audio controls loop src="/audio/gigachad theme.mp3"></audio>
+        <br>
+        <a href="index.html" target="_self" title="Go back to the main website">Go to Main Website</a>
+        <br>
+        <a href="mailto:adampc216@gmail.com" target="_blank" title="Open my e-mail">E-mail me here!</a>
+    </nav>
+
+    <main>
+        <section>
+            <h1>This is Page 2</h1>
+            <video controls autoplay loop src="/videos/lil-midget-dancing.mp4"></video>
+            <br>
+            <h2>Unordered List</h2>
+            <ul>
+                <li>Controller</li>
+                <li>Game console</li>
+                <li>Internet connection</li>
+                <li>Video game</li>
+            </ul>
+            <hr>
+            <h2>Ordered List</h2>
+            <ol type="1">
+                <li>Eat breakfast</li>
+                <li>Shower</li>
+                <li>Go to the gym</li>
+                <li>Sleep</li>
+            </ol>
+            <hr>
+            <h2>Description List</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>This adds structure to a webpage</dd>
+                <dt>CSS</dt>
+                <dd>This adds style to a webpage</dd>
+                <dt>JavaScript</dt>
+                <dd>This adds functionality to a webpage</dd>
+            </dl>
+            <iframe style="border: 0" srcdoc='
+                <div style="text-align: center; padding: 10px; background-color: #333; border-radius: 10px;">
+                    <h2 style="color: #fff;">This is an Advertisement</h2>
+                    <img src="https://source.unsplash.com/400x200/?creative" alt="Ad Image" style="width: 100%; border-radius: 5px; margin-top: 10px;">
+                    <p style="color: #fff; margin-top: 10px;">Explore our exclusive products and services!</p>
+                    <a href="https://example.com" style="background-color: #980AFF; color: #FF0A0E; padding: 8px 15px; border-radius: 5px; text-decoration: none; margin-top: 10px; display: inline-block;">Learn More</a>
+                </div>
+            ' width="100%" height="200"></iframe>
+            <hr>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Adam PlayzVita</p>
+    </footer>
 </body>
 </html>
